@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(250, 235, 215, 0.281);
+}
+h1{
+    text-align: center;
+}
+figure{
+    text-align: center;
+}
+
+#destaque{
+    border-top      : 2px solid #F5BD26;
+    border-bottom   : 2px solid #F5BD26;
+}
+
+#galeria{
+    margin          : 1.5em auto;
+    display         : flex;
+    flex-wrap       : wrap;
+    max-width       : 1050px; 
+    list-style-type : none;
+    justify-content : space-around;
+}
+#galeria li{
+    margin: 7px;
+}
+main h2{
+    padding         : 0px 0px 10px 0px;
+    text-align      : center;
+    font-style      : italic;
+    font-family     : Garamond;
+    border-bottom   : 2px solid wheat;
+}
+
+footer{
+    text-align: center;
+}
+
+main p{
+    margin          : 2em auto;
+    max-width       : 30em;
+}
+
+address{
+    padding         : 1em 0;
+    background-color: rgb(255, 255, 255);
+}

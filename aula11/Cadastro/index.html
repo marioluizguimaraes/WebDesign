@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" name="nome" id="nome">
+        <br>
+
+        <label for="filhos">Filhos:</label>
+        <input type="number" name="filhos" id="filhos">
+        <br>
+
+        <label for="idade">Idade:</label>
+        <input type="range" name="idade" id="idade" value="0" max="100" min="0" oninput="display.value=value" onchange="display.value=value">
+        <input type="text" name="" id="display" value="0" readonly>
+        <br>
+
+        <label for="uf">UF:</label>
+        <select name="uf" id="uf">
+            <option value="rn">RN</option>
+            <option value="ce">CE</option>
+        </select>
+        <br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" name="cidade" id="cidade" list="lista_cidade">
+        <datalist id="lista_cidade">
+            <option value="Natal">Natal</option>
+            <option value="Assu">Assú</option>
+            <option value="Carnaubais">Carnaubais</option>
+        </datalist>
+        <br>
+
+        <fieldset>
+            <legend>Formação</legend>
+            <label><input type="checkbox" name="formacao" value="medio">Médio</label>
+            <label><input type="checkbox" name="formacao" value="superior_incompleto">Superior incompleto</label>
+            <label><input type="checkbox" name="formacao" value="superior_completo">Superior completo</label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Formação</legend>
+            <label><input type="radio" name="formacao" value="medio">Médio</label>
+            <label><input type="radio" name="formacao" value="superior_incompleto">Superior incompleto</label>
+            <label><input type="radio" name="formacao" value="superior_completo">Superior completo</label>
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

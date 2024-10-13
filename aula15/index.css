@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,footer{
+    color: white; 
+    padding: 2em;  
+    background-color: darkgreen;
+}
+header{
+    width: 100%;
+    height: 6em;
+    z-index: 4;
+    position: fixed;
+}
+main{
+    padding: 7em 2em 2em 2em;
+}
+
+.modal{
+    top: 10em; 
+    left: 10em;
+    width: 20em;
+    height: 20em;
+    padding: 2em;
+    position: absolute;
+    box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.308);
+    border-radius: 5px;
+    background-color: rgba(12, 226, 41, 0.9);
+}
+.modal p {
+    font-size: 15em;
+    text-align: center;
+}
+
+.box2{
+    top: 15em;
+    left: 15em;
+    z-index: 3;
+    background-color: rgba(255, 145, 145, 0.9);
+}
+.box3{
+    top: 20em;
+    left: 20em;
+    z-index: 1;
+    background-color: rgba(164, 229, 255,0.9);
+}

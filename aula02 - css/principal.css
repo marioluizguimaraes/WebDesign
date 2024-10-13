@@ -1,0 +1,18 @@
+body{
+    color               : aliceblue;
+    font-family         : Arial, Helvetica, sans-serif;
+    background-color    : rgb(29, 29, 29);
+}
+
+h1{
+    width           : 90%;
+    border          : 1px solid white;
+    padding         : 2rem;
+    text-align      : center;
+    border-radius   : .5rem;
+    background-color: rgb(44, 44, 44);
+}
+
+li{
+    list-style-image: url(marcador.png);
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#forms{
+    margin: 100px auto 10px auto;
+    width: 300px;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(185, 185, 185);
+}
+#forms>input[type=text]{
+    outline-color: rgb(32, 160, 20);
+    border-radius: 4px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px 2px;
+}
+#botão button{
+    font-size: 16px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px 2px;
+}
+#calcular{
+    background-color: rgb(36, 173, 36);
+} 
+#verificar{
+    background-color: rgb(221, 122, 8);
+}
+#botão{
+    display: flex;
+    gap: 10px;
+}
+#calcular:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.192);
+    background-color: green;
+}
+#verificar:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.192);
+    background-color: rgb(182, 97, 0);
+}
+
+p{
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid rgb(185, 185, 185);
+    margin: 10px auto;
+    width: 300px;
+    padding: 40px 10px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,18 @@
+body{
+    color           : aliceblue;
+    background-color: rgb(39, 39, 39);
+    
+}
+h1{
+    color           : rgb(243, 138, 0);
+    text-align      : center;   
+    font-family     : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow     : rgb(255, 255, 255) 0px 0px 3px;
+    letter-spacing  : 2px;
+}
+
+figure img{
+    width: 5em;
+    border-radius: 50%;
+    border: 2px solid white;
+}

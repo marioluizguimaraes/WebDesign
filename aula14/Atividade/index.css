@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    display: grid;
+    gap: 15px;
+    height: 100vh;
+    grid-template: 
+    "nav a b c"
+    "nav d d c"
+    "nav e e c";
+}
+nav{
+    grid-area: nav;
+}
+.a{
+    grid-area: a;
+}
+
+.b{
+    grid-area: b; 
+}
+.c{
+    grid-area: c;
+}
+.d{
+    grid-area: d;
+}
+.e{
+    grid-area: e;
+}
+.caixas{
+    background-color: rgb(230, 242, 250);
+    border: 1px solid rgba(0, 0, 0, 0.486);
+}

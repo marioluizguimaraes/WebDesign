@@ -1,0 +1,17 @@
+@media screen and (max-width: 1000px){
+    body{
+     background-color: blue;
+    }
+ }
+ 
+ @media screen and (max-width: 800px){
+     body{
+      background-color: rgb(42, 133, 30);
+     }
+ }
+ 
+  @media screen and (max-width: 500px){
+     body{
+      background-color: rgb(192, 39, 39);
+     }
+ }

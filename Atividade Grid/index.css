@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main h2, main h3{
+    font-family: 'Roboto Mono', monospace;    
+}
+header{
+    
+    color: white;
+    padding: 1.5em;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace; 
+    background-image: linear-gradient(to left,#7292A6, #224459 );
+}
+footer{
+    color: white;
+    padding: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #224459;
+}
+footer>p{
+    font-size: 12px;
+    text-align: center;
+}
+main{
+    gap: 1em;
+    padding: 1em 0;
+    display: grid;
+    grid-template-areas: "nav b1 tabela tabela imgA" "nav lista forms imgN imgH"  "nav imgL forms org org";
+    grid-template-columns: 16.5em 16.5em auto 16.5em 16.5em;
+}
+nav{
+    background-color: #C5D1D9
+}
+nav>ul{
+    list-style-type: none;
+}
+
+nav li>a{
+    color: #327097;
+    display: inline-block;
+    padding: .8em 1em;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+.box{
+    padding: 2em; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ECECEC;
+}
+#navegacao{
+    grid-area: nav;
+}
+#box1{
+   grid-area: b1;  
+   line-height: 2em;
+   
+}
+#box1 a{ 
+    color: #224459;
+    border: 1px solid #224459; 
+    margin: .2em 0;
+    padding: 0px 5px; 
+    display: inline-block;
+    text-decoration: none;
+}
+#box1 strong{
+    color: #224459;
+}
+#lista{
+    grid-area: lista; 
+    line-height: 2em;
+    
+}
+#lista ul{
+    padding: 1em;
+}
+#forms{
+    grid-area: forms;
+}
+#forms input[type=text], #forms input[type=tel], #forms input[type=email]{
+    width: 100%;
+    margin: 1em 0;
+    border: 2px solid #60686d;
+    padding: 10px;
+}
+#forms input[type=submit]{
+    color: #a5a5a5;
+    border: none;
+    margin: 1.3em auto;
+    padding: 10px 50px; 
+    display: block;
+    background-color: #212325;
+}
+#table{
+    grid-area: tabela;
+}
+#table table{
+    width: 100%;
+    border: 1px solid white; 
+    margin-top: 1em;
+    border-collapse: collapse;  
+}
+#table td{ 
+    border: 1px solid white; 
+    padding: .2em 4em;   
+}
+
+#organizacao{
+   grid-area: org; 
+   line-height: 2em;
+    
+}
+#organizacao p{
+    margin-top: 1em;
+}
+
+#imagemA{
+    filter: grayscale(100%); 
+    grid-area: imgA;
+    background-size: cover;
+    background-image: url(palestrantes/amanda.jpg);
+    
+}
+#imagemN{
+    
+    filter: grayscale(100%);
+    grid-area: imgN; 
+    background-size: cover;
+    background-image: url(palestrantes/georgia.jpg);
+    
+}
+#imagemH{
+    filter: grayscale(100%);
+    grid-area: imgH; 
+    background-size: cover;
+    background-image: url(palestrantes/henrique.jpg);
+    
+}
+#imagemL{
+    filter: grayscale(100%);
+    grid-area: imgL; 
+    background-size: cover;
+    background-image: url(palestrantes/ellen.jpg);
+}
+.palestrante{
+    padding: 0;
+}
+.palestrante>p{
+    color: white; 
+    margin: 4em 0;
+    padding: 1.5em;
+    text-align: center;
+    align-items: center;
+    background-color: #21232549;
+}

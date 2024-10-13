@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    padding: 2em;
+    width: 70em;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 3px 4px 10px rgba(61, 61, 61, 0.212);
+    display: grid;
+    grid-template-areas: 
+    "a b d"
+    "a c c"
+    "d e e";
+    gap: 5px;
+}
+main>div{
+    padding: 2em;
+    border: 1px solid rgba(131, 131, 131, 0.329);
+    background-color: antiquewhite;
+}
+.area-a{
+    grid-area: a;
+    background-color: rgb(185, 136, 231);
+}
+.area-b{
+    grid-area: b;
+    background-color: rgb(164, 199, 240);
+}
+.area-c{
+    grid-area: c;
+    background-color: rgb(233, 118, 118);
+}
+.area-d{
+    grid-area: d;
+    background-color: rgb(220, 255, 186);
+}
+.area-e{
+    grid-area: e;
+}
